@@ -1,698 +1,814 @@
 [
-  {
-    "name": "28 Turns Later",
-    "territoryCount": 50,
-    "territoryCountBlizzards": 46,
-    "slug": "28-turns-later"
-  },
-  {
-    "name": "Africa",
-    "territoryCount": 37,
-    "territoryCountBlizzards": 35,
-    "slug": "africa"
-  },
-  {
-    "name": "Africa Advanced",
-    "territoryCount": 50,
-    "territoryCountBlizzards": 46,
-    "slug": "africa-advanced"
-  },
-  {
-    "name": "Airship",
-    "territoryCount": 104,
-    "territoryCountBlizzards": 93,
-    "slug": "airship"
-  },
-  {
-    "name": "Alcatraz",
-    "territoryCount": 39,
-    "territoryCountBlizzards": 37,
-    "slug": "alcatraz"
-  },
-  {
-    "name": "Arrakeen",
-    "territoryCount": 39,
-    "territoryCountBlizzards": 37,
-    "slug": "arrakeen"
-  },
-  {
-    "name": "Arrakis",
-    "territoryCount": 36,
-    "territoryCountBlizzards": 34,
-    "slug": "arrakis"
-  },
-  {
-    "name": "Arctic",
-    "territoryCount": 47,
-    "territoryCountBlizzards": 44,
-    "slug": "arctic"
-  },
-  {
-    "name": "Arkeanos",
-    "territoryCount": 69,
-    "territoryCountBlizzards": 63,
-    "slug": "arkeanos"
-  },
-  {
-    "name": "Asia 1800s",
-    "territoryCount": 48,
-    "territoryCountBlizzards": 44,
-    "slug": "asia-1800s"
-  },
-  {
-    "name": "Atlantis",
-    "territoryCount": 57,
-    "territoryCountBlizzards": 52,
-    "slug": "atlantis"
-  },
-  {
-    "name": "Battle of Charleroi",
-    "territoryCount": 88,
-    "territoryCountBlizzards": 79,
-    "slug": "battle-of-charleroi"
-  },
-  {
-    "name": "Battle of Ligny",
-    "territoryCount": 79,
-    "territoryCountBlizzards": 72,
-    "slug": "battle-of-ligny"
-  },
-  {
-    "name": "Battle of Placenoit",
-    "territoryCount": 79,
-    "territoryCountBlizzards": 72,
-    "slug": "battle-of-placenoit"
-  },
-  {
-    "name": "Battle of Svolder",
-    "territoryCount": 44,
-    "territoryCountBlizzards": 41,
-    "slug": "battle-of-svolder"
-  },
-  {
-    "name": "Battle of Waterloo",
-    "territoryCount": 97,
-    "territoryCountBlizzards": 87,
-    "slug": "battle-of-waterloo"
-  },
-  {
-    "name": "Blackbeard's Wrath",
-    "territoryCount": 44,
-    "territoryCountBlizzards": 41,
-    "slug": "blackbeards-wrath"
-  },
-  {
-    "name": "Bohus Fortress",
-    "territoryCount": 65,
-    "territoryCountBlizzards": 59,
-    "slug": "bohus-fortress"
-  },
-  {
-    "name": "Boston",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "boston"
-  },
-  {
-    "name": "Brazil",
-    "territoryCount": 23,
-    "territoryCountBlizzards": 21,
-    "slug": "brazil"
-  },
-  {
-    "name": "Brazil Advanced",
-    "territoryCount": 56,
-    "territoryCountBlizzards": 51,
-    "slug": "brazil-advanced"
-  },
-  {
-    "name": "Britannia",
-    "territoryCount": 20,
-    "territoryCountBlizzards": 18,
-    "slug": "britannia"
-  },
-  {
-    "name": "Britannia Advanced",
-    "territoryCount": 49,
-    "territoryCountBlizzards": 45,
-    "slug": "britannia-advanced"
-  },
-  {
-    "name": "Canada",
-    "territoryCount": 53,
-    "territoryCountBlizzards": 49,
-    "slug": "canada"
-  },
-  {
-    "name": "Canada Advanced",
-    "territoryCount": 91,
-    "territoryCountBlizzards": 82,
-    "slug": "canada-advanced"
-  },
-  {
-    "name": "Castle",
-    "territoryCount": 31,
-    "territoryCountBlizzards": 29,
-    "slug": "castle"
-  },
-  {
-    "name": "Central America",
-    "territoryCount": 61,
-    "territoryCountBlizzards": 56,
-    "slug": "central-america"
-  },
-  {
-    "name": "Classic",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "classic"
-  },
-  {
-    "name": "Classic Frozen",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "classic-frozen"
-  },
-  {
-    "name": "Command and Controller",
-    "territoryCount": 47,
-    "territoryCountBlizzards": 44,
-    "slug": "command-and-controller"
-  },
-  {
-    "name": "Command Base C1X",
-    "territoryCount": 100,
-    "territoryCountBlizzards": 90,
-    "slug": "command-base-c1x"
-  },
-  {
-    "name": "Conquest of Stockholm",
-    "territoryCount": 73,
-    "territoryCountBlizzards": 66,
-    "slug": "conquest-of-stockholm"
-  },
-  {
-    "name": "Conwy Castle",
-    "territoryCount": 63,
-    "territoryCountBlizzards": 58,
-    "slug": "conwy-castle"
-  },
-  {
-    "name": "Deutschland",
-    "territoryCount": 57,
-    "territoryCountBlizzards": 52,
-    "slug": "deutschland"
-  },
-  {
-    "name": "Dicey Trajectories",
-    "territoryCount": 39,
-    "territoryCountBlizzards": 37,
-    "slug": "dicey-trajectories"
-  },
-  {
-    "name": "Dino Canyon",
-    "territoryCount": 44,
-    "territoryCountBlizzards": 41,
-    "slug": "dino-canyon"
-  },
-  {
-    "name": "Dino World",
-    "territoryCount": 39,
-    "territoryCountBlizzards": 37,
-    "slug": "dino-world"
-  },
-  {
-    "name": "Dracon Fortress",
-    "territoryCount": 44,
-    "territoryCountBlizzards": 41,
-    "slug": "dracon-fortress"
-  },
-  {
-    "name": "Dracula's Castle",
-    "territoryCount": 51,
-    "territoryCountBlizzards": 47,
-    "slug": "draculas-castle"
-  },
-  {
-    "name": "Earth 2209 AD",
-    "territoryCount": 86,
-    "territoryCountBlizzards": 78,
-    "slug": "earth-2209-ad"
-  },
-  {
-    "name": "Emergency Calls Only",
-    "territoryCount": 52,
-    "territoryCountBlizzards": 48,
-    "slug": "emergency-calls-only"
-  },
-  {
-    "name": "Enchanted Lands",
-    "territoryCount": 32,
-    "territoryCountBlizzards": 30,
-    "slug": "enchanted-lands"
-  },
-  {
-    "name": "End of the King",
-    "territoryCount": 37,
-    "territoryCountBlizzards": 35,
-    "slug": "end-of-the-king"
-  },
-  {
-    "name": "Europe",
-    "territoryCount": 44,
-    "territoryCountBlizzards": 41,
-    "slug": "europe"
-  },
-  {
-    "name": "Europe Advanced",
-    "territoryCount": 83,
-    "territoryCountBlizzards": 75,
-    "slug": "europe-advanced"
-  },
-  {
-    "name": "Forsaken Lands",
-    "territoryCount": 46,
-    "territoryCountBlizzards": 43,
-    "slug": "forsaken-lands"
-  },
-  {
-    "name": "France",
-    "territoryCount": 26,
-    "territoryCountBlizzards": 24,
-    "slug": "france"
-  },
-  {
-    "name": "General Processing Unit",
-    "territoryCount": 50,
-    "territoryCountBlizzards": 46,
-    "slug": "general-processing-unit"
-  },
-  {
-    "name": "Greece",
-    "territoryCount": 64,
-    "territoryCountBlizzards": 58,
-    "slug": "greece"
-  },
-  {
-    "name": "Greenland Saga",
-    "territoryCount": 35,
-    "territoryCountBlizzards": 33,
-    "slug": "greenland-saga"
-  },
-  {
-    "name": "Grip of the North",
-    "territoryCount": 44,
-    "territoryCountBlizzards": 41,
-    "slug": "grip-of-the-north"
-  },
-  {
-    "name": "Himeji Castle",
-    "territoryCount": 60,
-    "territoryCountBlizzards": 55,
-    "slug": "himeji-castle"
-  },
-  {
-    "name": "Ibailand",
-    "territoryCount": 58,
-    "territoryCountBlizzards": 53,
-    "slug": "ibailand"
-  },
-  {
-    "name": "Iceland",
-    "territoryCount": 21,
-    "territoryCountBlizzards": 19,
-    "slug": "iceland"
-  },
-  {
-    "name": "Italy",
-    "territoryCount": 36,
-    "territoryCountBlizzards": 34,
-    "slug": "italy"
-  },
-  {
-    "name": "Japan",
-    "territoryCount": 50,
-    "territoryCountBlizzards": 46,
-    "slug": "japan"
-  },
-  {
-    "name": "Jules Verne's Mysterious Island",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "jules-vernes-mysterious-island"
-  },
-  {
-    "name": "Koenigsberg",
-    "territoryCount": 43,
-    "territoryCountBlizzards": 40,
-    "slug": "koenigsberg"
-  },
-  {
-    "name": "Las Vegas, Nevada",
-    "territoryCount": 58,
-    "territoryCountBlizzards": 53,
-    "slug": "las-vegas-nevada"
-  },
-  {
-    "name": "Lindisfarne Raid",
-    "territoryCount": 35,
-    "territoryCountBlizzards": 33,
-    "slug": "lindisfarne-raid"
-  },
-  {
-    "name": "Los Angeles",
-    "territoryCount": 41,
-    "territoryCountBlizzards": 38,
-    "slug": "los-angeles"
-  },
-  {
-    "name": "Lost Temple",
-    "territoryCount": 45,
-    "territoryCountBlizzards": 42,
-    "slug": "lost-temple"
-  },
-  {
-    "name": "Lubeck",
-    "territoryCount": 43,
-    "territoryCountBlizzards": 40,
-    "slug": "lubeck"
-  },
-  {
-    "name": "Lunar Mining Facility",
-    "territoryCount": 62,
-    "territoryCountBlizzards": 57,
-    "slug": "lunar-mining-facility"
-  },
-  {
-    "name": "Machu Picchu",
-    "territoryCount": 38,
-    "territoryCountBlizzards": 36,
-    "slug": "machu-picchu"
-  },
-  {
-    "name": "Mall of the Dead",
-    "territoryCount": 72,
-    "territoryCountBlizzards": 65,
-    "slug": "mall-of-the-dead"
-  },
-  {
-    "name": "Mira HQ",
-    "territoryCount": 52,
-    "territoryCountBlizzards": 48,
-    "slug": "mira-hq"
-  },
-  {
-    "name": "Modern Spain",
-    "territoryCount": 47,
-    "territoryCountBlizzards": 44,
-    "slug": "modern-spain"
-  },
-  {
-    "name": "Mont Saint Michel",
-    "territoryCount": 88,
-    "territoryCountBlizzards": 79,
-    "slug": "mont-saint-michel"
-  },
-  {
-    "name": "Moonstone Forest",
-    "territoryCount": 47,
-    "territoryCountBlizzards": 44,
-    "slug": "moonstone-forest"
-  },
-  {
-    "name": "Mother of All Boards",
-    "territoryCount": 31,
-    "territoryCountBlizzards": 29,
-    "slug": "mother-of-all-boards"
-  },
-  {
-    "name": "Nan Madol",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "nan-madol"
-  },
-  {
-    "name": "New York",
-    "territoryCount": 34,
-    "territoryCountBlizzards": 32,
-    "slug": "new-york"
-  },
-  {
-    "name": "New Zealand and Australia",
-    "territoryCount": 38,
-    "territoryCountBlizzards": 36,
-    "slug": "new-zealand-and-australia"
-  },
-  {
-    "name": "New Zealand and Australia Advanced",
-    "territoryCount": 72,
-    "territoryCountBlizzards": 65,
-    "slug": "new-zealand-and-australia-advanced"
-  },
-  {
-    "name": "Operation A.D.A.M",
-    "territoryCount": 52,
-    "territoryCountBlizzards": 48,
-    "slug": "operation-adam"
-  },
-  {
-    "name": "Orbital Objectives",
-    "territoryCount": 55,
-    "territoryCountBlizzards": 51,
-    "slug": "orbital-objectives"
-  },
-  {
-    "name": "Ottoman Empire",
-    "territoryCount": 38,
-    "territoryCountBlizzards": 36,
-    "slug": "ottoman-empire"
-  },
-  {
-    "name": "Ottoman Empire Advanced",
-    "territoryCount": 59,
-    "territoryCountBlizzards": 54,
-    "slug": "ottoman-empire-advanced"
-  },
-  {
-    "name": "Overworld",
-    "territoryCount": 74,
-    "territoryCountBlizzards": 67,
-    "slug": "overworld"
-  },
-  {
-    "name": "Pangaea",
-    "territoryCount": 65,
-    "territoryCountBlizzards": 59,
-    "slug": "pangaea"
-  },
-  {
-    "name": "Pirate's Bay",
-    "territoryCount": 83,
-    "territoryCountBlizzards": 75,
-    "slug": "pirates-bay"
-  },
-  {
-    "name": "Polus",
-    "territoryCount": 59,
-    "territoryCountBlizzards": 54,
-    "slug": "polus"
-  },
-  {
-    "name": "Qing Dynasty",
-    "territoryCount": 35,
-    "territoryCountBlizzards": 33,
-    "slug": "qing-dynasty"
-  },
-  {
-    "name": "Ratatoskr and Friends",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "ratatoskr-and-friends"
-  },
-  {
-    "name": "Red Sands Fort",
-    "territoryCount": 64,
-    "territoryCountBlizzards": 58,
-    "slug": "red-sands-fort"
-  },
-  {
-    "name": "REDACTED",
-    "territoryCount": 47,
-    "territoryCountBlizzards": 44,
-    "slug": "redacted"
-  },
-  {
-    "name": "Reverse World",
-    "territoryCount": 66,
-    "territoryCountBlizzards": 60,
-    "slug": "reverse-world"
-  },
-  {
-    "name": "River Town",
-    "territoryCount": 24,
-    "territoryCountBlizzards": 22,
-    "slug": "river-town"
-  },
-  {
-    "name": "River Town [Advanced]",
-    "territoryCount": 68,
-    "territoryCountBlizzards": 62,
-    "slug": "river-town-advanced"
-  },
-  {
-    "name": "Roman Empire",
-    "territoryCount": 43,
-    "territoryCountBlizzards": 40,
-    "slug": "roman-empire"
-  },
-  {
-    "name": "Roman Empire Advanced",
-    "territoryCount": 62,
-    "territoryCountBlizzards": 57,
-    "slug": "roman-empire-advanced"
-  },
-  {
-    "name": "Roots of Yggdrasil",
-    "territoryCount": 55,
-    "territoryCountBlizzards": 51,
-    "slug": "roots-of-yggdrasil"
-  },
-  {
-    "name": "Seagrogs Fortress",
-    "territoryCount": 76,
-    "territoryCountBlizzards": 69,
-    "slug": "seagrogs-fortress"
-  },
-  {
-    "name": "Seaport",
-    "territoryCount": 41,
-    "territoryCountBlizzards": 38,
-    "slug": "seaport"
-  },
-  {
-    "name": "Sietch Tabr",
-    "territoryCount": 59,
-    "territoryCountBlizzards": 54,
-    "slug": "sietch-tabr"
-  },
-  {
-    "name": "Simple World",
-    "territoryCount": 19,
-    "territoryCountBlizzards": 17,
-    "slug": "simple-world"
-  },
-  {
-    "name": "Skull & Crossbones",
-    "territoryCount": 44,
-    "territoryCountBlizzards": 41,
-    "slug": "skull-crossbones"
-  },
-  {
-    "name": "SMG Spaceport",
-    "territoryCount": 45,
-    "territoryCountBlizzards": 42,
-    "slug": "smg-spaceport"
-  },
-  {
-    "name": "Spaceport Sigma",
-    "territoryCount": 96,
-    "territoryCountBlizzards": 86,
-    "slug": "spaceport-sigma"
-  },
-  {
-    "name": "Stairs of Knowledge & Power",
-    "territoryCount": 41,
-    "territoryCountBlizzards": 38,
-    "slug": "stairs-of-knowledge-power"
-  },
-  {
-    "name": "Supermax Prison",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "supermax-prison"
-  },
-  {
-    "name": "The Fungle",
-    "territoryCount": 65,
-    "territoryCountBlizzards": 59,
-    "slug": "the-fungle"
-  },
-  {
-    "name": "The Imperium",
-    "territoryCount": 36,
-    "territoryCountBlizzards": 34,
-    "slug": "the-imperium"
-  },
-  {
-    "name": "The Younger Scrolls",
-    "territoryCount": 66,
-    "territoryCountBlizzards": 60,
-    "slug": "the-younger-scrolls"
-  },
-  {
-    "name": "Trigons Labyrinth",
-    "territoryCount": 80,
-    "territoryCountBlizzards": 72,
-    "slug": "trigons-labyrinth"
-  },
-  {
-    "name": "Troy",
-    "territoryCount": 67,
-    "territoryCountBlizzards": 61,
-    "slug": "troy"
-  },
-  {
-    "name": "Turkey",
-    "territoryCount": 63,
-    "territoryCountBlizzards": 58,
-    "slug": "turkey"
-  },
-  {
-    "name": "United States",
-    "territoryCount": 42,
-    "territoryCountBlizzards": 39,
-    "slug": "united-states"
-  },
-  {
-    "name": "United States Advanced",
-    "territoryCount": 77,
-    "territoryCountBlizzards": 70,
-    "slug": "united-states-advanced"
-  },
-  {
-    "name": "US Midwest",
-    "territoryCount": 64,
-    "territoryCountBlizzards": 58,
-    "slug": "us-midwest"
-  },
-  {
-    "name": "US Northeast",
-    "territoryCount": 34,
-    "territoryCountBlizzards": 32,
-    "slug": "us-northeast"
-  },
-  {
-    "name": "US South",
-    "territoryCount": 54,
-    "territoryCountBlizzards": 50,
-    "slug": "us-south"
-  },
-  {
-    "name": "US West",
-    "territoryCount": 55,
-    "territoryCountBlizzards": 51,
-    "slug": "us-west"
-  },
-  {
-    "name": "Way to Valhalla",
-    "territoryCount": 69,
-    "territoryCountBlizzards": 63,
-    "slug": "way-to-valhalla"
-  },
-  {
-    "name": "World Conquest",
-    "territoryCount": 47,
-    "territoryCountBlizzards": 44,
-    "slug": "world-conquest"
-  }
- ]
+ {
+   "name": "28 Turns Later",
+   "territoryCount": 50,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "28-turns-later"
+ },
+ {
+   "name": "Africa",
+   "territoryCount": 37,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "africa"
+ },
+ {
+   "name": "Africa Advanced",
+   "territoryCount": 50,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "africa-advanced"
+ },
+ {
+   "name": "Airship",
+   "territoryCount": 104,
+   "blizzardCount": 11,
+   "portalCount": 7,
+   "slug": "airship"
+ },
+ {
+   "name": "Alcatraz",
+   "territoryCount": 39,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "alcatraz"
+ },
+ {
+   "name": "Arrakeen",
+   "territoryCount": 39,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "arrakeen"
+ },
+ {
+   "name": "Arrakis",
+   "territoryCount": 36,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "arrakis"
+ },
+ {
+   "name": "Arctic",
+   "territoryCount": 47,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "arctic"
+ },
+ {
+   "name": "Arkeanos",
+   "territoryCount": 69,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "arkeanos"
+ },
+ {
+   "name": "Asia 1800s",
+   "territoryCount": 48,
+   "blizzardCount": 4,
+   "portalCount": 5,
+   "slug": "asia-1800s"
+ },
+ {
+   "name": "Atlantis",
+   "territoryCount": 57,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "atlantis"
+ },
+ {
+   "name": "Battle of Charleroi",
+   "territoryCount": 88,
+   "blizzardCount": 9,
+   "portalCount": 7,
+   "slug": "battle-of-charleroi"
+ },
+ {
+   "name": "Battle of Ligny",
+   "territoryCount": 79,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "battle-of-ligny"
+ },
+ {
+   "name": "Battle of Placenoit",
+   "territoryCount": 79,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "battle-of-placenoit"
+ },
+ {
+   "name": "Battle of Svolder",
+   "territoryCount": 44,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "battle-of-svolder"
+ },
+ {
+   "name": "Battle of Waterloo",
+   "territoryCount": 97,
+   "blizzardCount": 10,
+   "portalCount": 7,
+   "slug": "battle-of-waterloo"
+ },
+ {
+   "name": "Blackbeard's Wrath",
+   "territoryCount": 44,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "blackbeards-wrath"
+ },
+ {
+   "name": "Bohus Fortress",
+   "territoryCount": 65,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "bohus-fortress"
+ },
+ {
+   "name": "Boston",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "boston"
+ },
+ {
+   "name": "Brazil",
+   "territoryCount": 23,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "brazil"
+ },
+ {
+   "name": "Brazil Advanced",
+   "territoryCount": 56,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "brazil-advanced"
+ },
+ {
+   "name": "Britannia",
+   "territoryCount": 20,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "britannia"
+ },
+ {
+   "name": "Britannia Advanced",
+   "territoryCount": 49,
+   "blizzardCount": 4,
+   "portalCount": 5,
+   "slug": "britannia-advanced"
+ },
+ {
+   "name": "Canada",
+   "territoryCount": 53,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "canada"
+ },
+ {
+   "name": "Canada Advanced",
+   "territoryCount": 91,
+   "blizzardCount": 9,
+   "portalCount": 7,
+   "slug": "canada-advanced"
+ },
+ {
+   "name": "Castle",
+   "territoryCount": 31,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "castle"
+ },
+ {
+   "name": "Central America",
+   "territoryCount": 61,
+   "blizzardCount": 5,
+   "portalCount": 7,
+   "slug": "central-america"
+ },
+ {
+   "name": "Classic",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "classic"
+ },
+ {
+   "name": "Classic Frozen",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "classic-frozen"
+ },
+ {
+   "name": "Command and Controller",
+   "territoryCount": 47,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "command-and-controller"
+ },
+ {
+   "name": "Command Base C1X",
+   "territoryCount": 100,
+   "blizzardCount": 10,
+   "portalCount": 7,
+   "slug": "command-base-c1x"
+ },
+ {
+   "name": "Conquest of Stockholm",
+   "territoryCount": 73,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "conquest-of-stockholm"
+ },
+ {
+   "name": "Conwy Castle",
+   "territoryCount": 63,
+   "blizzardCount": 5,
+   "portalCount": 7,
+   "slug": "conwy-castle"
+ },
+ {
+   "name": "Deutschland",
+   "territoryCount": 57,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "deutschland"
+ },
+ {
+   "name": "Dicey Trajectories",
+   "territoryCount": 39,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "dicey-trajectories"
+ },
+ {
+   "name": "Dino Canyon",
+   "territoryCount": 44,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "dino-canyon"
+ },
+ {
+   "name": "Dino World",
+   "territoryCount": 39,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "dino-world"
+ },
+ {
+   "name": "Dracon Fortress",
+   "territoryCount": 44,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "dracon-fortress"
+ },
+ {
+   "name": "Dracula's Castle",
+   "territoryCount": 51,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "draculas-castle"
+ },
+ {
+   "name": "Earth 2209 AD",
+   "territoryCount": 86,
+   "blizzardCount": 8,
+   "portalCount": 7,
+   "slug": "earth-2209-ad"
+ },
+ {
+   "name": "Emergency Calls Only",
+   "territoryCount": 52,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "emergency-calls-only"
+ },
+ {
+   "name": "Enchanted Lands",
+   "territoryCount": 32,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "enchanted-lands"
+ },
+ {
+   "name": "End of the King",
+   "territoryCount": 37,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "end-of-the-king"
+ },
+ {
+   "name": "Europe",
+   "territoryCount": 44,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "europe"
+ },
+ {
+   "name": "Europe Advanced",
+   "territoryCount": 84,
+   "blizzardCount": 9,
+   "portalCount": 7,
+   "slug": "europe-advanced"
+ },
+ {
+   "name": "Forsaken Lands",
+   "territoryCount": 46,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "forsaken-lands"
+ },
+ {
+   "name": "France",
+   "territoryCount": 26,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "france"
+ },
+ {
+   "name": "General Processing Unit",
+   "territoryCount": 50,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "general-processing-unit"
+ },
+ {
+   "name": "Greece",
+   "territoryCount": 64,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "greece"
+ },
+ {
+   "name": "Greenland Saga",
+   "territoryCount": 35,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "greenland-saga"
+ },
+ {
+   "name": "Grip of the North",
+   "territoryCount": 44,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "grip-of-the-north"
+ },
+ {
+   "name": "Himeji Castle",
+   "territoryCount": 60,
+   "blizzardCount": 5,
+   "portalCount": 7,
+   "slug": "himeji-castle"
+ },
+ {
+   "name": "Ibailand",
+   "territoryCount": 58,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "ibailand"
+ },
+ {
+   "name": "Iceland",
+   "territoryCount": 21,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "iceland"
+ },
+ {
+   "name": "Italy",
+   "territoryCount": 36,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "italy"
+ },
+ {
+   "name": "Japan",
+   "territoryCount": 50,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "japan"
+ },
+ {
+   "name": "Jules Verne's Mysterious Island",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "jules-vernes-mysterious-island"
+ },
+ {
+   "name": "Koenigsberg",
+   "territoryCount": 43,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "koenigsberg"
+ },
+ {
+   "name": "Las Vegas, Nevada",
+   "territoryCount": 58,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "las-vegas,-nevada"
+ },
+ {
+   "name": "Lindisfarne Raid",
+   "territoryCount": 35,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "lindisfarne-raid"
+ },
+ {
+   "name": "Los Angeles",
+   "territoryCount": 41,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "los-angeles"
+ },
+ {
+   "name": "Lost Temple",
+   "territoryCount": 45,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "lost-temple"
+ },
+ {
+   "name": "Lübeck",
+   "territoryCount": 43,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "lübeck"
+ },
+ {
+   "name": "Lunar Mining Facility",
+   "territoryCount": 62,
+   "blizzardCount": 5,
+   "portalCount": 7,
+   "slug": "lunar-mining-facility"
+ },
+ {
+   "name": "Machu Picchu",
+   "territoryCount": 38,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "machu-picchu"
+ },
+ {
+   "name": "Mall of the Dead",
+   "territoryCount": 72,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "mall-of-the-dead"
+ },
+ {
+   "name": "Mira HQ",
+   "territoryCount": 52,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "mira-hq"
+ },
+ {
+   "name": "Modern Spain",
+   "territoryCount": 47,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "modern-spain"
+ },
+ {
+   "name": "Mont Saint Michel",
+   "territoryCount": 88,
+   "blizzardCount": 9,
+   "portalCount": 7,
+   "slug": "mont-saint-michel"
+ },
+ {
+   "name": "Moonstone Forest",
+   "territoryCount": 47,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "moonstone-forest"
+ },
+ {
+   "name": "Mother of All Boards",
+   "territoryCount": 31,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "mother-of-all-boards"
+ },
+ {
+   "name": "Nan Madol",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "nan-madol"
+ },
+ {
+   "name": "New York",
+   "territoryCount": 34,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "new-york"
+ },
+ {
+   "name": "New Zealand and Australia",
+   "territoryCount": 38,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "new-zealand-and-australia"
+ },
+ {
+   "name": "New Zealand and Australia Advanced",
+   "territoryCount": 72,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "new-zealand-and-australia-advanced"
+ },
+ {
+   "name": "Operation A.D.A.M",
+   "territoryCount": 52,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "operation-adam"
+ },
+ {
+   "name": "Orbital Objectives",
+   "territoryCount": 55,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "orbital-objectives"
+ },
+ {
+   "name": "Ottoman Empire",
+   "territoryCount": 38,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "ottoman-empire"
+ },
+ {
+   "name": "Ottoman Empire Advanced",
+   "territoryCount": 59,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "ottoman-empire-advanced"
+ },
+ {
+   "name": "Overworld",
+   "territoryCount": 74,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "overworld"
+ },
+ {
+   "name": "Pangaea",
+   "territoryCount": 65,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "pangaea"
+ },
+ {
+   "name": "Pirate's Bay",
+   "territoryCount": 83,
+   "blizzardCount": 8,
+   "portalCount": 7,
+   "slug": "pirates-bay"
+ },
+ {
+   "name": "Polus",
+   "territoryCount": 59,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "polus"
+ },
+ {
+   "name": "Qing Dynasty",
+   "territoryCount": 35,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "qing-dynasty"
+ },
+ {
+   "name": "Ratatoskr and Friends",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "ratatoskr-and-friends"
+ },
+ {
+   "name": "Red Sands Fort",
+   "territoryCount": 64,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "red-sands-fort"
+ },
+ {
+   "name": "REDACTED",
+   "territoryCount": 47,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "redacted"
+ },
+ {
+   "name": "Reverse World",
+   "territoryCount": 66,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "reverse-world"
+ },
+ {
+   "name": "River Town",
+   "territoryCount": 24,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "river-town"
+ },
+ {
+   "name": "River Town [Advanced]",
+   "territoryCount": 68,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "river-town-advanced"
+ },
+ {
+   "name": "Roman Empire",
+   "territoryCount": 43,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "roman-empire"
+ },
+ {
+   "name": "Roman Empire Advanced",
+   "territoryCount": 62,
+   "blizzardCount": 5,
+   "portalCount": 7,
+   "slug": "roman-empire-advanced"
+ },
+ {
+   "name": "Roots of Yggdrasil",
+   "territoryCount": 55,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "roots-of-yggdrasil"
+ },
+ {
+   "name": "Seagrogs Fortress",
+   "territoryCount": 76,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "seagrogs-fortress"
+ },
+ {
+   "name": "Seaport",
+   "territoryCount": 41,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "seaport"
+ },
+ {
+   "name": "Sietch Tabr",
+   "territoryCount": 59,
+   "blizzardCount": 5,
+   "portalCount": 6,
+   "slug": "sietch-tabr"
+ },
+ {
+   "name": "Simple World",
+   "territoryCount": 19,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "simple-world"
+ },
+ {
+   "name": "Skull & Crossbones",
+   "territoryCount": 44,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "skull-and-crossbones"
+ },
+ {
+   "name": "SMG Spaceport",
+   "territoryCount": 45,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "smg-spaceport"
+ },
+ {
+   "name": "Spaceport Sigma",
+   "territoryCount": 96,
+   "blizzardCount": 10,
+   "portalCount": 7,
+   "slug": "spaceport-sigma"
+ },
+ {
+   "name": "Stairs of Knowledge & Power",
+   "territoryCount": 41,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "stairs-of-knowledge-and-power"
+ },
+ {
+   "name": "Supermax Prison",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "supermax-prison"
+ },
+ {
+   "name": "The Fungle",
+   "territoryCount": 65,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "the-fungle"
+ },
+ {
+   "name": "The Imperium",
+   "territoryCount": 36,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "the-imperium"
+ },
+ {
+   "name": "The Younger Scrolls",
+   "territoryCount": 66,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "the-younger-scrolls"
+ },
+ {
+   "name": "Trigons Labyrinth",
+   "territoryCount": 80,
+   "blizzardCount": 8,
+   "portalCount": 7,
+   "slug": "trigons-labyrinth"
+ },
+ {
+   "name": "Troy",
+   "territoryCount": 67,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "troy"
+ },
+ {
+   "name": "Turkey",
+   "territoryCount": 63,
+   "blizzardCount": 5,
+   "portalCount": 7,
+   "slug": "turkey"
+ },
+ {
+   "name": "United States",
+   "territoryCount": 42,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "united-states"
+ },
+ {
+   "name": "United States Advanced",
+   "territoryCount": 77,
+   "blizzardCount": 7,
+   "portalCount": 7,
+   "slug": "united-states-advanced"
+ },
+ {
+   "name": "US Midwest",
+   "territoryCount": 64,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "us-midwest"
+ },
+ {
+   "name": "US Northeast",
+   "territoryCount": 34,
+   "blizzardCount": 2,
+   "portalCount": 4,
+   "slug": "us-northeast"
+ },
+ {
+   "name": "US South",
+   "territoryCount": 54,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "us-south"
+ },
+ {
+   "name": "US West",
+   "territoryCount": 55,
+   "blizzardCount": 4,
+   "portalCount": 6,
+   "slug": "us-west"
+ },
+ {
+   "name": "Way to Valhalla",
+   "territoryCount": 69,
+   "blizzardCount": 6,
+   "portalCount": 7,
+   "slug": "way-to-valhalla"
+ },
+ {
+   "name": "World Conquest",
+   "territoryCount": 47,
+   "blizzardCount": 3,
+   "portalCount": 5,
+   "slug": "world-conquest"
+ }
+]
