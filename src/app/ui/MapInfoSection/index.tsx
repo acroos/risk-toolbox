@@ -1,4 +1,6 @@
-export default function MapInfo(props: { mapInfo: MapInfo }) {
+import { MapInfo } from "@/types"
+
+export default function MapInfoSection(props: { mapInfo: MapInfo }) {
   const { mapInfo } = props
 
   return (

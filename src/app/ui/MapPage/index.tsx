@@ -1,9 +1,10 @@
 "use client"
 
 import { useState } from "react"
-import MapInfo from "../MapInfo"
 import SeventyCalculator from "../SeventyCalculator"
 import { useSearchParams } from "next/navigation"
+import { MapInfo } from "@/types"
+import MapInfoSection from "../MapInfoSection"
 
 export default function MapPage(props: { mapInfos: MapInfo[] }) {
   const { mapInfos } = props
@@ -66,7 +67,7 @@ export default function MapPage(props: { mapInfos: MapInfo[] }) {
                 </p>
               </div>
               <div className="block">
-                <MapInfo mapInfo={selectedMap} />
+                <MapInfoSection mapInfo={selectedMap} />
               </div>
               <div className="block">
                 <h2 className="is-size-4 has-text-centered">70% Calculator</h2>

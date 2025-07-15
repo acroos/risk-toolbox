@@ -1,5 +1,6 @@
 "use client"
 
+import { MapInfo } from "@/types"
 import { useState } from "react"
 
 function territoriesForPercent(
