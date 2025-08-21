@@ -10,7 +10,7 @@ function territoriesForPercent(
   percent: number
 ) {
   const totalCount = blizzards ? territoryCount - blizzardCount : territoryCount
-  return Math.floor((percent / 100) * totalCount)
+  return Math.ceil((percent / 100) * totalCount)
 }
 
 export default function SeventyCalculator(props: { mapInfo: MapInfo }) {
