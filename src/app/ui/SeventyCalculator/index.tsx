@@ -13,9 +13,12 @@ function territoriesForPercent(
   return Math.ceil((percent / 100) * totalCount)
 }
 
-export default function SeventyCalculator(props: { mapInfo: MapInfo }) {
-  const { mapInfo } = props
-  const [blizzards, setBlizzards] = useState(false)
+export default function SeventyCalculator(props: { 
+  mapInfo: MapInfo
+  blizzards: boolean
+  setBlizzards: (blizzards: boolean) => void
+}) {
+  const { mapInfo, blizzards, setBlizzards } = props
   const [currentPercent, setCurrentPercent] = useState(0)
 
   const handleCurrentPercentInputChange = (newPercentage: number) => {
@@ -44,9 +47,8 @@ export default function SeventyCalculator(props: { mapInfo: MapInfo }) {
   return (
     <div className="box">
       <div className="columns">
-        <div className="column is-5">
-          <div className="box">
-            <h4 className="title is-5 mb-4">Calculator Settings</h4>
+        <div className="column is-5 is-flex is-align-items-center">
+          <div className="box" style={{ width: '100%' }}>
             <div className="field">
               <label className="label">Current Percentage</label>
               <div className="control">
