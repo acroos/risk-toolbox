@@ -810,5 +810,61 @@
    "blizzardCount": 3,
    "portalCount": 5,
    "slug": "world-conquest"
+ },
+ {
+  "name": "Abandoned Crystal Mines",
+  "territoryCount": 56,
+  "blizzardCount": 5,
+  "portalCount": 7,
+  "slug": "abandoned-crystal-mines"
+ },
+ {
+  "name": "Drained Great Lakes",
+  "territoryCount": 53,
+  "blizzardCount": 4,
+  "portalCount": 6,
+  "slug": "drained-great-lakes"
+ },
+ {
+  "name": "Crown of the Skies",
+  "territoryCount": 54,
+  "blizzardCount": 4,
+  "portalCount": 6,
+  "slug": "crown-of-the-skies"
+ },
+ {
+  "name": "Terraformed Venus",
+  "territoryCount": 79,
+  "blizzardCount": 7,
+  "portalCount": 7,
+  "slug": "terraformed-venus"
+ },
+ {
+  "name": "State of Emergency",
+  "territoryCount": 76,
+  "blizzardCount": 7,
+  "portalCount": 7,
+  "slug": "state-of-emergency"
+ },
+ {
+  "name": "City of the Dead",
+  "territoryCount": 75,
+  "blizzardCount": 7,
+  "portalCount": 7,
+  "slug": "city-of-the-dead"
+ },
+ {
+  "name": "Dead End Depot",
+  "territoryCount": 75,
+  "blizzardCount": 7,
+  "portalCount": 7,
+  "slug": "dead-end-depot"
+ },
+ {
+  "name": "Ground Zero",
+  "territoryCount": 70,
+  "blizzardCount": 6,
+  "portalCount": 7,
+  "slug": "ground-zero"
  }
 ]
