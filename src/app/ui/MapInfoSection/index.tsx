@@ -8,23 +8,23 @@ export default function MapInfoSection(props: { mapInfo: MapInfo }) {
       <div className="column has-text-centered">
         <div className="box">
           <div className="block">
-            <span className="icon is-large has-text-info">
+            <span className="icon is-large has-text-primary">
               <i className="fas fa-globe fa-2x"></i>
             </span>
           </div>
           <p className="heading">Territories</p>
-          <p className="title is-3 has-text-info">{mapInfo.territoryCount}</p>
+          <p className="title is-3 has-text-primary">{mapInfo.territoryCount}</p>
         </div>
       </div>
       <div className="column has-text-centered">
         <div className="box">
           <div className="block">
-            <span className="icon is-large has-text-primary">
+            <span className="icon is-large has-text-info">
               <i className="fas fa-snowflake fa-2x"></i>
             </span>
           </div>
           <p className="heading">Blizzards</p>
-          <p className="title is-3 has-text-primary">{mapInfo.blizzardCount}</p>
+          <p className="title is-3 has-text-info">{mapInfo.blizzardCount}</p>
         </div>
       </div>
       <div className="column has-text-centered">

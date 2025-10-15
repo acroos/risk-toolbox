@@ -7,10 +7,26 @@ export default function MapList(props: {
 }) {
   const { mapInfos, onMapSelected } = props
   const [searchTerm, setSearchTerm] = useState("")
-  
+
+  const filteredMaps = mapInfos.filter((mapInfo) =>
+    mapInfo.name.toLowerCase().includes(searchTerm.toLowerCase())
+  )
+
   return (
-    <article className="panel is-link">
+    <article
+      className="panel is-link"
+      style={{
+        height: "100%",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        marginBottom: 0,
+      }}
+    >
+      {/* Fixed Header */}
       <p className="panel-heading">Maps</p>
+
+      {/* Fixed Search Bar */}
       <div className="panel-block">
         <p className="control has-icons-left">
           <input
@@ -24,11 +40,10 @@ export default function MapList(props: {
           </span>
         </p>
       </div>
-      {mapInfos
-        .filter((mapInfo) =>
-          mapInfo.name.toLowerCase().includes(searchTerm.toLowerCase())
-        )
-        .map((mapInfo) => {
+
+      {/* Scrollable Map List */}
+      <div style={{ flex: "1", overflowY: "auto" }}>
+        {filteredMaps.map((mapInfo) => {
           return (
             <a
               onClick={() => onMapSelected(mapInfo)}
@@ -42,6 +57,7 @@ export default function MapList(props: {
             </a>
           )
         })}
+      </div>
     </article>
   )
 }

@@ -21,21 +21,30 @@ export default function MapPage(props: { mapInfos: MapInfo[] }) {
   )
   const [blizzards, setBlizzards] = useState(false)
 
+  // Collapsible section states
+  const [isStatsCollapsed, setIsStatsCollapsed] = useState(false)
+  const [isCalculatorCollapsed, setIsCalculatorCollapsed] = useState(false)
+
   return (
     <div className="container">
-      <div className="columns">
-        <div className="column is-one-quarter">
+      <div
+        className="columns"
+        style={{ minHeight: "100vh", alignItems: "stretch" }}
+      >
+        <div
+          className="column is-one-quarter"
+          style={{ display: "flex", flexDirection: "column" }}
+        >
           <MapList mapInfos={mapInfos} onMapSelected={setSelectedMap} />
         </div>
         <div className="column is-three-quarters">
           {selectedMap === undefined ? (
             <div className="hero is-medium">
               <div className="hero-body has-text-centered">
-                <h1 className="title is-3 has-text-grey-light">
-                  Select a Map
-                </h1>
+                <h1 className="title is-3 has-text-grey-light">Select a Map</h1>
                 <p className="subtitle has-text-grey">
-                  Choose a map from the list to view details and use the 70% calculator
+                  Choose a map from the list to view details and use the 70%
+                  calculator
                 </p>
               </div>
             </div>
@@ -55,28 +64,72 @@ export default function MapPage(props: { mapInfos: MapInfo[] }) {
               {/* Map Statistics */}
               <section className="section">
                 <div className="container">
-                  <h2 className="title is-4 mb-4">Map Statistics</h2>
-                  <MapInfoSection mapInfo={selectedMap} />
+                  <div className="box">
+                    <div
+                      className="is-flex is-justify-content-space-between is-align-items-center is-clickable"
+                      onClick={() => setIsStatsCollapsed(!isStatsCollapsed)}
+                    >
+                      <h2 className="title is-4 mb-0">Map Statistics</h2>
+                      <span className="icon">
+                        <i
+                          className={`fas ${
+                            isStatsCollapsed
+                              ? "fa-chevron-down"
+                              : "fa-chevron-up"
+                          }`}
+                        ></i>
+                      </span>
+                    </div>
+
+                    {!isStatsCollapsed && (
+                      <div className="mt-4">
+                        <MapInfoSection mapInfo={selectedMap} />
+                      </div>
+                    )}
+                  </div>
                 </div>
               </section>
 
               {/* Calculator Section */}
               <section className="section pt-2">
                 <div className="container">
-                  <h2 className="title is-4 mb-4">70% Calculator</h2>
-                  <SeventyCalculator 
-                    mapInfo={selectedMap} 
-                    blizzards={blizzards}
-                    setBlizzards={setBlizzards}
-                  />
+                  <div className="box">
+                    <div
+                      className="is-flex is-justify-content-space-between is-align-items-center is-clickable"
+                      onClick={() =>
+                        setIsCalculatorCollapsed(!isCalculatorCollapsed)
+                      }
+                    >
+                      <h2 className="title is-4 mb-0">70% Calculator</h2>
+                      <span className="icon">
+                        <i
+                          className={`fas ${
+                            isCalculatorCollapsed
+                              ? "fa-chevron-down"
+                              : "fa-chevron-up"
+                          }`}
+                        ></i>
+                      </span>
+                    </div>
+
+                    {!isCalculatorCollapsed && (
+                      <div className="mt-4">
+                        <SeventyCalculator
+                          mapInfo={selectedMap}
+                          blizzards={blizzards}
+                          setBlizzards={setBlizzards}
+                        />
+                      </div>
+                    )}
+                  </div>
                 </div>
               </section>
 
               {/* Percentage Table Section */}
               <section className="section pt-2">
                 <div className="container">
-                  <PercentageTable 
-                    mapInfo={selectedMap} 
+                  <PercentageTable
+                    mapInfo={selectedMap}
                     blizzards={blizzards}
                   />
                 </div>
