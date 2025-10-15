@@ -13,7 +13,7 @@ function territoriesForPercent(
   return Math.ceil((percent / 100) * totalCount)
 }
 
-export default function SeventyCalculator(props: { 
+export default function SeventyCalculator(props: {
   mapInfo: MapInfo
   blizzards: boolean
   setBlizzards: (blizzards: boolean) => void
@@ -41,14 +41,19 @@ export default function SeventyCalculator(props: {
     blizzards,
     currentPercent
   )
-  const totalTerritories = blizzards ? mapInfo.territoryCount - mapInfo.blizzardCount : mapInfo.territoryCount
-  const progressPercentage = Math.min((currentTerritories / seventyCount) * 100, 100)
+  const totalTerritories = blizzards
+    ? mapInfo.territoryCount - mapInfo.blizzardCount
+    : mapInfo.territoryCount
+  const progressPercentage = Math.min(
+    (currentTerritories / seventyCount) * 100,
+    100
+  )
 
   return (
     <div className="box">
       <div className="columns">
         <div className="column is-5 is-flex is-align-items-center">
-          <div className="box" style={{ width: '100%' }}>
+          <div className="box" style={{ width: "100%" }}>
             <div className="field">
               <label className="label">Current Percentage</label>
               <div className="control">
@@ -77,7 +82,9 @@ export default function SeventyCalculator(props: {
                       <span className="slider"></span>
                     </label>
                     <span className="ml-3 has-text-weight-medium">
-                      {blizzards ? 'Excluding blizzards' : 'Including blizzards'}
+                      {blizzards
+                        ? "Excluding blizzards"
+                        : "Including blizzards"}
                     </span>
                   </div>
                 </div>
@@ -102,13 +109,17 @@ export default function SeventyCalculator(props: {
             <div className="column is-6">
               <div className="box has-text-centered">
                 <p className="heading">Current Territories</p>
-                <p className="title is-2 has-text-success">{currentTerritories}</p>
+                <p className="title is-2 has-text-success">
+                  {currentTerritories}
+                </p>
               </div>
             </div>
             <div className="column is-6">
               <div className="box has-text-centered">
                 <p className="heading">Remaining Needed</p>
-                <p className="title is-2 has-text-primary">{Math.max(0, seventyCount - currentTerritories)}</p>
+                <p className="title is-2 has-text-primary">
+                  {Math.max(0, seventyCount - currentTerritories)}
+                </p>
               </div>
             </div>
           </div>

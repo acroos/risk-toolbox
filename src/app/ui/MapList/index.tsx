@@ -11,7 +11,7 @@ export default function MapList(props: {
 
   const filteredMaps = useMemo(() => {
     if (!searchTerm.trim()) return mapInfos
-    
+
     return mapInfos.filter((mapInfo) =>
       mapInfo.name.toLowerCase().includes(searchTerm.toLowerCase())
     )
@@ -31,7 +31,6 @@ export default function MapList(props: {
       className="panel is-link"
       style={{
         height: "100%",
-        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
         marginBottom: 0,
@@ -41,8 +40,8 @@ export default function MapList(props: {
       <div className="panel-heading is-flex is-justify-content-space-between is-align-items-center">
         <span>Maps ({filteredMaps.length})</span>
         {searchTerm && (
-          <button 
-            className="delete is-small" 
+          <button
+            className="delete is-small"
             onClick={clearSearch}
             title="Clear search"
           ></button>
@@ -80,9 +79,7 @@ export default function MapList(props: {
               </p>
               <p>No maps found</p>
               {searchTerm && (
-                <p className="is-size-7">
-                  Try a different search term
-                </p>
+                <p className="is-size-7">Try a different search term</p>
               )}
             </div>
           </div>
@@ -93,10 +90,12 @@ export default function MapList(props: {
               <a
                 onClick={() => handleMapSelect(mapInfo)}
                 key={mapInfo.slug}
-                className={`panel-block ${isSelected ? 'is-active has-background-link-light' : ''}`}
-                style={{ 
-                  cursor: 'pointer',
-                  transition: 'background-color 0.2s ease'
+                className={`panel-block ${
+                  isSelected ? "is-active has-background-link-light" : ""
+                }`}
+                style={{
+                  cursor: "pointer",
+                  transition: "background-color 0.2s ease",
                 }}
               >
                 <span className="panel-icon">
@@ -105,7 +104,9 @@ export default function MapList(props: {
                 <div className="is-flex-grow-1">
                   <div className="has-text-weight-medium">{mapInfo.name}</div>
                   <div className="is-size-7 has-text-grey">
-                    {mapInfo.territoryCount} territories • {mapInfo.blizzardCount} blizzards • {mapInfo.portalCount} portals
+                    {mapInfo.territoryCount} territories •{" "}
+                    {mapInfo.blizzardCount} blizzards • {mapInfo.portalCount}{" "}
+                    portals
                   </div>
                 </div>
               </a>

@@ -15,13 +15,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link 
-          rel="stylesheet" 
+        <link
+          rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         />
       </head>
-      <body>
-        <div className="section">{children}</div>
+      <body style={{ margin: 0, padding: 0, height: "100vh" }}>
+        <div style={{ height: "100vh", padding: "1.5rem" }}>{children}</div>
       </body>
     </html>
   )

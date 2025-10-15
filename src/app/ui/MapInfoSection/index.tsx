@@ -13,7 +13,9 @@ export default function MapInfoSection(props: { mapInfo: MapInfo }) {
             </span>
           </div>
           <p className="heading">Territories</p>
-          <p className="title is-3 has-text-primary">{mapInfo.territoryCount}</p>
+          <p className="title is-3 has-text-primary">
+            {mapInfo.territoryCount}
+          </p>
         </div>
       </div>
       <div className="column has-text-centered">

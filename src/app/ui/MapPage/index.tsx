@@ -26,18 +26,30 @@ export default function MapPage(props: { mapInfos: MapInfo[] }) {
   const [isCalculatorCollapsed, setIsCalculatorCollapsed] = useState(false)
 
   return (
-    <div className="container">
+    <div className="container" style={{ height: "100vh", padding: 0 }}>
       <div
         className="columns"
-        style={{ minHeight: "100vh", alignItems: "stretch" }}
+        style={{ height: "100%", margin: 0, alignItems: "stretch" }}
       >
         <div
           className="column is-one-quarter"
-          style={{ display: "flex", flexDirection: "column" }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            height: "100%",
+            padding: "0.75rem 0.75rem 2rem 1.5rem",
+          }}
         >
           <MapList mapInfos={mapInfos} onMapSelected={setSelectedMap} />
         </div>
-        <div className="column is-three-quarters">
+        <div
+          className="column is-three-quarters"
+          style={{
+            height: "100%",
+            overflowY: "auto",
+            padding: "0.75rem 1.5rem 0.75rem 0.75rem",
+          }}
+        >
           {selectedMap === undefined ? (
             <div className="hero is-medium">
               <div className="hero-body has-text-centered">
