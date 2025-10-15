@@ -38,82 +38,80 @@ export default function SeventyCalculator(props: { mapInfo: MapInfo }) {
     blizzards,
     currentPercent
   )
+  const totalTerritories = blizzards ? mapInfo.territoryCount - mapInfo.blizzardCount : mapInfo.territoryCount
+  const progressPercentage = Math.min((currentTerritories / seventyCount) * 100, 100)
 
   return (
-    <div className="columns">
-      <div className="column has-text-centered">
-        <div className="field">
-          <label className="label">Current Percentage</label>
-          <div className="control">
-            <input
-              className="input is-rounded"
-              type="number"
-              onChange={(e) =>
-                handleCurrentPercentInputChange(e.target.valueAsNumber)
-              }
-            ></input>
+    <div className="box">
+      <div className="columns">
+        <div className="column is-5">
+          <div className="box">
+            <h4 className="title is-5 mb-4">Calculator Settings</h4>
+            <div className="field">
+              <label className="label">Current Percentage</label>
+              <div className="control">
+                <input
+                  className="input is-large"
+                  type="number"
+                  min="0"
+                  max="100"
+                  placeholder="Enter percentage..."
+                  onChange={(e) =>
+                    handleCurrentPercentInputChange(e.target.valueAsNumber)
+                  }
+                ></input>
+              </div>
+            </div>
+            <div className="field">
+              <div className="field-body">
+                <div className="field">
+                  <div className="control">
+                    <label className="switch">
+                      <input
+                        type="checkbox"
+                        checked={blizzards}
+                        onChange={() => setBlizzards(!blizzards)}
+                      />
+                      <span className="slider"></span>
+                    </label>
+                    <span className="ml-3 has-text-weight-medium">
+                      {blizzards ? 'Excluding blizzards' : 'Including blizzards'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="field">
-          <label className="label">Blizzards?</label>
-          <div className="control">
-            <input
-              type="checkbox"
-              onChange={() => setBlizzards(!blizzards)}
-            ></input>
-          </div>
-        </div>
-      </div>
-      <div className="column has-text-centered">
-        <div className="block">
-          <div>
-            <p className="heading">70% Territories Needed</p>
-            <p className="title">{seventyCount}</p>
-          </div>
-        </div>
-        <div className="block">
-          <div>
-            <p className="heading">Current Territories</p>
-            <p className="title">{currentTerritories}</p>
-          </div>
-        </div>
-        <div className="block">
-          <div>
-            <p className="heading has-text-primary">Remaining Territories Needed</p>
-            <p className="title has-text-primary">{seventyCount - currentTerritories}</p>
+        <div className="column is-7">
+          <div className="columns is-multiline">
+            <div className="column is-6">
+              <div className="box has-text-centered">
+                <p className="heading">Total Territories</p>
+                <p className="title is-2 has-text-info">{totalTerritories}</p>
+              </div>
+            </div>
+            <div className="column is-6">
+              <div className="box has-text-centered">
+                <p className="heading">70% Territories Needed</p>
+                <p className="title is-3 has-text-warning">{seventyCount}</p>
+              </div>
+            </div>
+            <div className="column is-6">
+              <div className="box has-text-centered">
+                <p className="heading">Current Territories</p>
+                <p className="title is-2 has-text-success">{currentTerritories}</p>
+              </div>
+            </div>
+            <div className="column is-6">
+              <div className="box has-text-centered">
+                <p className="heading">Remaining Needed</p>
+                <p className="title is-2 has-text-primary">{Math.max(0, seventyCount - currentTerritories)}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    // <>
-    //   <div className="level">
-    //     <div className="level-item has-text-centered">
-    //       <div>
-    //         <p className="heading">Current Percent</p>
-    //         <input
-    //           className="input title"
-    //           type="number"
-    // onChange={(e) => {
-    //   if (isNaN(e.target.valueAsNumber)) {
-    //     setCurrentPercent(0)
-    //   } else {
-    //     setCurrentPercent(e.target.valueAsNumber)
-    //   }
-    //           }}
-    //         ></input>
-    //       </div>
-    //     </div>
-    //     <div className="level-item has-text-centered">
-    //       <div>
-    //         <p className="heading">Blizzards?</p>
-    //         <input className="title" type="checkbox" onChange={() => setBlizzards(!blizzards)}></input>
-    //       </div>
-    //     </div>
-    //   </div>
-
-    //   <div className="level">
-
-    //   </div>
-    // </>
   )
 }

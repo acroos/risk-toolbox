@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import "bulma/css/bulma.css"
+import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Risk Toolbox",
