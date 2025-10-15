@@ -109,3 +109,13 @@ input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
+
+/* Map list improvements */
+.is-clickable {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.is-clickable:hover {
+  color: #3273dc;
+}
