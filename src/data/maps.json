@@ -866,5 +866,26 @@
   "blizzardCount": 6,
   "portalCount": 7,
   "slug": "ground-zero"
+ },
+ {
+  "name": "Yggdrasil, The World Tree",
+  "territoryCount": 42,
+  "blizzardCount": 3,
+  "portalCount": 5,
+  "slug": "yggdrasil-the-world-tree"
+ },
+ {
+  "name": "The Skeld",
+  "territoryCount": 69,
+  "blizzardCount": 6,
+  "portalCount": 7,
+  "slug": "the-skeld"
+ },
+ {
+  "name": "Arrakeen Residence",
+  "territoryCount": 30,
+  "blizzardCount": 2,
+  "portalCount": 3,
+  "slug": "arrakeen-residence"
  }
 ]
